@@ -1,0 +1,6 @@
+# Launch Sliver Server and create a new operator client
+sudo ./sliver-server_linux
+new-operator -n randomusername -l <machine ip address> -s /root/.sliver-client/configs/
+multiplayer
+
+# Launch Sliver Client
